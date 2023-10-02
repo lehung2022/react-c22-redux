@@ -61,6 +61,16 @@ const PostPage = () => {
             </>
           }
         </article>
+        <div>
+          <button>
+            <Link to={`/`}>Return to homepage</Link>
+          </button>
+        </div>
+        <div>
+          <button>
+            <Link to={`/post`}>Add a new post</Link>
+          </button>
+        </div>
       </main>
     </>
   )

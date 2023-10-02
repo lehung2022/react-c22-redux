@@ -1,6 +1,7 @@
 import Feed from "../feed/Feed";
 import { useStoreState } from 'easy-peasy';
 
+
 const Home = ({ isLoading, fetchError }) => {
     const searchResults = useStoreState((state) => state.searchResults);
 

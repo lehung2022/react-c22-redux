@@ -45,8 +45,8 @@
     {
       "id": 8,
       "title": "Warrior",
-      "datetime": "June 30, 2023 2:05:33 PM",
-      "body": "Season 3 of this show has begun yesterday"
+      "datetime": "October 02, 2023 3:49:21 PM",
+      "body": "Season 3 of this show began yesterday"
     },
     {
       "id": 9,
@@ -81,8 +81,20 @@
     {
       "id": 14,
       "title": "6 months",
-      "datetime": "August 03, 2023 11:58:11 PM",
-      "body": "6 months of learning is done. Now, let's move on to 6 months of building, and doing"
+      "datetime": "October 02, 2023 3:55:04 PM",
+      "body": "6 months of learning is done. Now, let's move on to 6 months of building, and doing.\nI also need to add more features to this one, such as going back to the previous page, connecting to the databases"
+    },
+    {
+      "id": 15,
+      "title": "New Features",
+      "datetime": "October 02, 2023 3:58:43 PM",
+      "body": "We are not done yet.\nI need to add a lot more features to this project.\nOne, create a button named \"New Post\" and then make a button that will jump to this \"New Post\" tab\nTwo, I need to re-style the button for the CSS purpose\nThree, re-check the responsiveness\nFour, get these features done with Deadline of my own"
+    },
+    {
+      "id": 16,
+      "title": "Content of the post",
+      "datetime": "October 02, 2023 4:05:25 PM",
+      "body": "We need to make the content of this page worth reading.\nAnd, we also need a database"
     }
   ]
 }

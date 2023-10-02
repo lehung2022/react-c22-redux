@@ -1,11 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
 import { useStoreState, useStoreActions } from 'easy-peasy';
+import { useParams, Link } from 'react-router-dom';
 
 
 const NewPost = () => {
   const navigate = useNavigate();
-
+  const { id } = useParams();
   const posts = useStoreState((state) => state.posts);
   const postTitle = useStoreState((state) => state.postTitle);
   const postBody = useStoreState((state) => state.postBody);
@@ -59,6 +60,7 @@ const NewPost = () => {
   return (
     <>
       <main className="NewPost">
+
         <h2>New Post</h2>
         <form className="newPostForm" onSubmit={handleSubmit}>
           <label htmlFor="postTitle">Title:</label>
@@ -77,6 +79,11 @@ const NewPost = () => {
             onChange={(e) => setPostBody(e.target.value)}
           />
           <button type="submit">Submit</button>
+          <button>
+            <Link to={`/`}>
+              Go back
+            </Link>
+          </button>
         </form>
       </main>
     </>

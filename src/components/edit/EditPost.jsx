@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import { format } from 'date-fns';
 import { useStoreState, useStoreActions } from 'easy-peasy';
 
+
 const EditPost = () => {
     const navigate = useNavigate();
     const { id } = useParams();
@@ -50,6 +51,9 @@ const EditPost = () => {
     return (
         <>
             <main className="NewPost">
+                <div>
+                    <button><Link to={`/post/${id}`}>Go back</Link></button>
+                </div>
                 {editTitle &&
                     <>
                         <h2>Edit Post</h2>
